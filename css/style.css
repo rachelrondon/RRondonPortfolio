@@ -38,7 +38,7 @@ body {
   margin-top: 100px;
   text-align: center;
   font-size: 16px;
-  color: #3d3d3b;
+  color: #263238;
   font-family: 'Varela Round', sans-serif;
 }
 
@@ -51,7 +51,7 @@ body {
   text-align: center;
   font-size: 16px;
   font-family: 'Varela Round', sans-serif;
-  color: #7c7c7b;
+  color:#9E9E9E;
 }
 
 #about-contact {
@@ -63,7 +63,7 @@ body {
   text-align: center;
   font-size: 16px;
   font-family: 'Varela Round', sans-serif;
-  color: #7c7c7b;
+  color:#9E9E9E;
 }
 
 p {
