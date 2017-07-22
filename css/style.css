@@ -43,6 +43,38 @@ body {
   padding-left: 700px;
 }
 
+#nav-work {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  padding-left: 50px;
+}
+
+
+#the-nav-bar {
+  display: flex;
+  flex-direction: row;
+  padding-left: 500px;
+  padding-top: 60px;
+}
+
+#the-web-dev {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  padding-left: 300px;
+}
+
+#nav-about {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  padding-left: 50px;
+}
+
+#nav-contact {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  padding-left: 50px;
+}
+
 #web-dev {
   font-family: 'Open Sans', sans-serif;
   font-size: 30px;
@@ -55,15 +87,18 @@ body {
 #nav-and-name {
   display: flex;
   flex-direction: row;
+  align-items: flex-end;
+  text-align: left;
 }
 
 
 #name {
-display: flex;
-font-family: 'Bilbo Swash Caps', cursive;
-color: #263238;
-font-size: 80px;
-margin-bottom: 0px;
+  font-family: 'Bilbo Swash Caps', cursive;
+  color: #263238;
+  font-size: 60px;
+  margin-bottom: 0px;
+  padding-left: 250px;
+  padding-top: 80px;
 }
 
 #welcome-msg {
