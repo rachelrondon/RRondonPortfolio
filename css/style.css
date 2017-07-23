@@ -221,10 +221,10 @@ p {
 
 #page-divider {
   display: inline-block;
-  width: 106%;
+  width: 94%;
   border-bottom-style: solid;
   border-bottom-color: #dedede;
   border-bottom-width: 2px;
-  margin-top: 50px;
-  margin-left: 43%;
+  margin-top: -10px;
+  margin-left: 360px;
 }
