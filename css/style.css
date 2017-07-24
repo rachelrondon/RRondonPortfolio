@@ -44,21 +44,20 @@ body {
 #nav-work {
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
-  /*padding-left:420px;*/
   color: #545556;
 }
 
 #nav-about {
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
-  /*padding-left: 50px;*/
+  padding-left: 10px;
   color: #545556;
 }
 
 #nav-contact {
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
-  /*padding-left: 50px;*/
+  padding-left: 10px;
   color: #545556;
 }
 
@@ -222,7 +221,7 @@ body {
   display: flex;
   flex-direction: row;
   color: #545556;
-  font-size: 80px;
+  font-size: 75px;
 }
 
 #last-name {
@@ -230,7 +229,8 @@ body {
   display: flex;
   flex-direction: row;
   color: #545556;
-  font-size: 80px;
+  font-size: 75px;
+  padding-left: 15px;
 }
 
 #main-page {
