@@ -187,8 +187,13 @@ body {
 #nav-and-name {
   display: flex;
   flex-direction: row;
-  margin-top: -40px;
+  padding-bottom: 10px;
 }
+
+#card-title {
+  color:black;
+}
+
 
 #main-page {
   flex-direction: column;
@@ -211,6 +216,39 @@ body {
 }
 
 
+#second-card {
+  padding-left: 20px;
+}
+
+
+.footer-copyright {
+  background-color: #eeeeee;
+}
+
+.page-footer {
+  background-color: #eeeeee;
+}
+
+footer {
+  background-color: #eeeeee;
+}
+
+
+#portfolio-div {
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 60px;
+}
+
+
+#footer-links {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+}
+
 #main-name {
   display: flex;
   flex-direction: row;
@@ -232,6 +270,7 @@ body {
   font-size: 75px;
   padding-left: 15px;
 }
+
 
 #main-page {
   display: flex;
