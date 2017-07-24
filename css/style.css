@@ -7,7 +7,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color:#f2f2f2;
+  background-color: rgba(255, 255, 255, .95);
 }
 
 #main-page {
@@ -43,25 +43,22 @@ body {
 
 #nav-work {
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  padding-left:420px;
-  padding-top: 90px;
+  font-size: 13px;
+  /*padding-left:420px;*/
   color: #545556;
 }
 
 #nav-about {
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  padding-left: 50px;
-  padding-top: 90px;
+  font-size: 13px;
+  /*padding-left: 50px;*/
   color: #545556;
 }
 
 #nav-contact {
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  padding-left: 50px;
-  padding-top: 90px;
+  font-size: 13px;
+  /*padding-left: 50px;*/
   color: #545556;
 }
 
@@ -184,11 +181,26 @@ body {
   margin-top: 0px;
 }
 
+#logo-name {
+  display: flex;
+  flex-direction: column;
+}
 #nav-and-name {
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
-  text-align: center;
+  margin-top: -40px;
+}
+
+#main-page {
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+#nav-and-name-two {
+  display: flex;
+  flex-direction: row;
+  margin-top: -75px;
 }
 
 #sub-title {
@@ -219,7 +231,11 @@ body {
   flex-direction: row;
   color: #545556;
   font-size: 80px;
-  padding-left: 10px;
+}
+
+#main-page {
+  display: flex;
+  text-align: center;
 }
 
 
