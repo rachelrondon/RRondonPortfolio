@@ -171,6 +171,11 @@ body {
   }
 }
 
+#h6-font {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+}
+
 /*End of the nav bar */
 
 #web-dev {
