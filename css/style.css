@@ -271,6 +271,11 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.card-content-about {
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+}
+
 .card-title {
   font-family: 'Open Sans', sans-serif;
   font-size: 30px;
@@ -292,6 +297,13 @@ footer {
   margin-left: 100px;
   margin-right: 100px;
   margin-top: 60px;
+}
+
+#portfolio-div-about {
+  align-content: center;
+  text-align: center;
+  margin-top: 60px;
+  padding-left: 33%;
 }
 
 @media (max-width: 950px) {
@@ -316,6 +328,13 @@ footer {
   #second-card {
     padding-left: 0px;
     margin-top: 60px;
+  }
+}
+
+/* about page */
+@media (max-width: 600px) {
+  #portfolio-div-about {
+  padding-left: 0px;
   }
 }
 
