@@ -293,9 +293,11 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-a:hover {
+
+#card-action:hover {
   color:#00838f;
 }
+
 
 
 .card-content-about {
