@@ -176,7 +176,9 @@ body {
   font-size: 13px;
 }
 
-/*End of the nav bar */
+#resume-card {
+  margin: 50px;
+}
 
 #web-dev {
   font-family: 'Open Sans', sans-serif;
@@ -328,11 +330,54 @@ footer {
   margin-top: 170px;
 }
 
+/*@media (max-width: 900px) {
+  #rachel-resume {
+    width: 300px;
+  }
+}*/
+
+@media (max-width: 750px) {
+  #rachel-resume {
+    display: none;
+  }
+  #resume-small-screen {
+    display: inline;
+  }
+  #copyright-div {
+    padding-top: 190px;
+  }
+}
+
+@media (max-width: 950px) {
+  #copyright-div {
+    padding-top: 180px;
+  }
+}
+
+@media (min-width: 750px) {
+  #resume-small-screen {
+    display: none;
+  }
+}
+
 #portfolio-div-about {
   align-content: center;
   text-align: center;
   margin-top: 60px;
   padding-left: 33%;
+}
+
+#resume-small-screen {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  margin: 50px;
+}
+
+#portfolio-div-resume {
+  align-content: center;
+  text-align: center;
+  margin-top: 60px;
+  /*padding-left: 33%;*/
 }
 
 @media (max-width: 950px) {
