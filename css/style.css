@@ -319,6 +319,18 @@ footer {
   }
 }
 
+@media (max-width: 950px) {
+  #portfolio-div {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 60px;
+  }
+  #second-card {
+    padding-left: 0px;
+    margin-top: 60px;
+  }
+}
+
 
 
 #footer-links {
