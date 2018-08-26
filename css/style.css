@@ -2,6 +2,15 @@ body {
   margin: 0;
   padding: 0;
   background-color: rgba(255, 255, 255, .95);
+  font-size: 16px;
+}
+
+footer {
+  background-color: #eeeeee;
+}
+
+p {
+  padding: 2px;
 }
 
 #rachel-resume {
@@ -24,7 +33,7 @@ body {
   color: #9e9e9e;
 }
 
-#h6-font {
+.card-info {
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
 }
@@ -55,17 +64,10 @@ body {
 #nav-and-name-two {
   display: flex;
   flex-direction: row;
-
 }
 
 #second-card {
   padding-left: 20px;
-}
-
-.social-media-logo {
-  width: 60px;
-  height: 55px;
-  margin: 40px;
 }
 
 .footer-info {
@@ -83,10 +85,6 @@ body {
   margin-bottom: 30px;
   font-family: 'Open Sans', sans-serif;
   background-color: rgba(255, 255, 255, .95);
-}
-
-#the-card-img {
-  padding-top: 25px;
 }
 
 .card-action {
@@ -128,10 +126,6 @@ body {
   background-color: #eeeeee;
 }
 
-footer {
-  background-color: #eeeeee;
-}
-
 #portfolio-div {
   display: flex;
   flex-direction: row;
@@ -146,30 +140,6 @@ footer {
   margin-left: 100px;
   margin-right: 100px;
   margin-top: 170px;
-}
-
-@media (max-width: 750px) {
-  #rachel-resume {
-    display: none;
-  }
-  #resume-small-screen {
-    display: inline;
-  }
-  #copyright-div {
-    padding-top: 190px;
-  }
-}
-
-@media (max-width: 950px) {
-  #copyright-div {
-    padding-top: 180px;
-  }
-}
-
-@media (min-width: 750px) {
-  #resume-small-screen {
-    display: none;
-  }
 }
 
 #portfolio-div-about {
@@ -189,50 +159,6 @@ footer {
   align-content: center;
   text-align: center;
   margin-top: 60px;
-}
-
-@media (max-width: 950px) {
-  #portfolio-div {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
-@media (max-width: 450px) {
-  .card-title {
-    display: none;
-  }
-
-  #portfolio-div {
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-top: 60px;
-  }
-
-  #second-card {
-    padding-left: 0px;
-    margin-top: 60px;
-  }
-}
-
-/* about page */
-@media (max-width: 600px) {
-  #portfolio-div-about {
-  padding-left: 0px;
-  }
-}
-/* End of the about page */
-
-@media (max-width: 950px) {
-  #portfolio-div {
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-top: 60px;
-  }
-  #second-card {
-    padding-left: 0px;
-    margin-top: 60px;
-  }
 }
 
 #first-name {
@@ -259,11 +185,70 @@ footer {
   text-align: center;
 }
 
-p {
-  padding: 2px;
+/* Media Queries */
+@media (max-width: 600px) {
+  #portfolio-div-about {
+  padding-left: 0px;
+  }
 }
 
-#contact-card-content {
-  display; flex;
-  flex-direction: row;
+@media (max-width: 950px) {
+  #portfolio-div {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 60px;
+  }
+  #second-card {
+    padding-left: 0px;
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 950px) {
+  #portfolio-div {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 450px) {
+  .card-title {
+    display: none;
+  }
+
+  #portfolio-div {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 60px;
+  }
+
+  #second-card {
+    padding-left: 0px;
+    margin-top: 60px;
+  }
+}
+
+
+@media (max-width: 750px) {
+  #rachel-resume {
+    display: none;
+  }
+  #resume-small-screen {
+    display: inline;
+  }
+  #copyright-div {
+    padding-top: 190px;
+  }
+}
+
+@media (max-width: 950px) {
+  #copyright-div {
+    padding-top: 180px;
+  }
+}
+
+@media (min-width: 750px) {
+  #resume-small-screen {
+    display: none;
+  }
 }
