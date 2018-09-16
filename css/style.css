@@ -21,12 +21,23 @@ p {
   margin-right: 10%;
 }
 
+#portfolio-div .card {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 10px 20px, rgba(0, 0, 0, 0.2) 0px 0px 1px;
+}
+
 .card {
   width: 40%;
   margin-left:10%;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 10px 20px, rgba(0, 0, 0, 0.2) 0px 0px 1px;
 }
 
 #rachel-resume {
+  width: 100%;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
   width: 100%;
 }
 
@@ -41,9 +52,9 @@ p {
 
 .nav-links {
   font-family: 'Open Sans', sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   padding-left: 10px;
-  color: #9e9e9e;
+  color: #545556;
 }
 
 .tech-icon {
@@ -89,7 +100,6 @@ p {
 #nav-and-name {
   display: flex;
   flex-direction: row;
-  padding-top: 30px;
 }
 
 #card-title {
@@ -115,6 +125,7 @@ p {
 #nav-and-name-two {
   display: flex;
   flex-direction: row;
+  padding-top:10px;
 }
 
 #second-card {
@@ -180,7 +191,7 @@ p {
 #portfolio-div {
   display: flex;
   flex-direction: row;
-  margin: 100px; 
+  margin: 100px;
   justify-content: center;
 }
 
@@ -216,7 +227,7 @@ p {
   display: flex;
   flex-direction: row;
   color: #545556;
-  font-size: 75px;
+  font-size: 34px;
   margin: 0 auto 0;
 }
 
@@ -225,14 +236,24 @@ p {
   display: flex;
   flex-direction: row;
   color: #545556;
-  font-size: 75px;
+  font-size: 34px;
   padding-left: 15px;
   margin: 0 auto 0;
 }
 
-#main-page {
+#nav-bar-div {
+  height: 80px;
   display: flex;
-  text-align: center;
+  flex-direction: row;
+  padding-top: 19.5px;
+  padding-bottom: 19.5px;
+  padding-right: 65px;
+  padding-left: 65px;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 10px 20px, rgba(0, 0, 0, 0.2) 0px 0px 1px;
+  background-color: rgba(255, 255, 255);
+  overflow: hidden;
+  z-index: 11;
 }
 
 /* Media Queries */
