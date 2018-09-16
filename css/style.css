@@ -13,6 +13,19 @@ p {
   padding: 2px;
 }
 
+.info-div {
+  width: 28%;
+  margin-top:auto;
+  margin-bottom: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.card {
+  width: 40%;
+  margin-left:10%;
+}
+
 #rachel-resume {
   width: 100%;
 }
@@ -33,9 +46,39 @@ p {
   color: #9e9e9e;
 }
 
+.tech-icon {
+  max-height: 33px;
+  max-width: 32px;
+  margin-right: 20px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tech-stack-icon {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.tech-stack-icons {
+  display: flex;
+}
+
+.card-desc {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-top: 40px;
+  line-height: 30px;
+  width: 80%;
+  font-weight: 300;
+}
+
 .card-info {
   font-family: 'Open Sans', sans-serif;
-  font-size: 13px;
+  font-size: 16px;
+  margin: auto;
+  padding-top: 10px;
 }
 
 #resume-card {
@@ -50,10 +93,18 @@ p {
 }
 
 #card-title {
-  color:black;
-  font-size: 20px;
-  color:#9e9e9e;
+  color: #17191D;
+  font-size: 36px;
+  line-height: 52px;
+  margin: auto
 }
+
+.card-description {
+  font-size: 26px;
+  margin: auto;
+  line-height: 52px;
+}
+
 
 #main-page {
   flex-direction: column;
@@ -132,6 +183,7 @@ p {
   margin-left: 100px;
   margin-right: 100px;
   margin-top: 60px;
+  justify-content: center;
 }
 
 #portfolio-div-contact {
