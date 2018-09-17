@@ -111,10 +111,11 @@ p {
 .card-action {
   font-size: 13px;
   font-family: 'Open Sans', sans-serif;
+  color: #545556;
 }
 
-.card-link {
-  color: #9e9e9e;
+.portfolio-div .card-action .card-link {
+  color: #545556 !important;
 }
 
 .card-content {
