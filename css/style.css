@@ -290,4 +290,7 @@ p {
   .mobile-only {
     display: block;
   }
+  .landing-page-info {
+    display: none; 
+  }
 }
