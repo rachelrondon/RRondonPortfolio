@@ -291,6 +291,9 @@ p {
     display: block;
   }
   .landing-page-info {
-    display: none; 
+    display: none;
+  }
+  .nav-links {
+    font-size: 12px;
   }
 }
