@@ -1,6 +1,6 @@
 This is the repo for my current portfolio website. [rachelrondon](http://rachelrondon.com/)
 
-# Technologies
+### Technologies
 - Create React App
 - React.JS
 - HTML5
